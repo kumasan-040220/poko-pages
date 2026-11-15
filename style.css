@@ -1,0 +1,21 @@
+/* ぽこのページ共通の見た目。ぽこの黄色と茶色に合わせる */
+body {
+  margin: 0;
+  font-family: -apple-system, "Hiragino Sans", sans-serif;
+  color: #4a3a2a;
+  background: #fffaf0;
+  line-height: 1.8;
+}
+main { max-width: 640px; margin: 0 auto; padding: 32px 20px 64px; }
+.face {
+  width: 96px; height: 96px; border-radius: 22px;
+  background: #ffd973; margin: 0 auto 16px; display: block;
+}
+h1 { text-align: center; font-size: 1.6em; margin: 0 0 24px; }
+h2 { font-size: 1.15em; margin-top: 36px; border-bottom: 2px solid #ffd973; padding-bottom: 4px; }
+a { color: #a0662a; }
+.button {
+  display: block; text-align: center; padding: 14px; margin: 16px 0;
+  background: #ffd973; border-radius: 12px; color: #4a3a2a; font-weight: bold; text-decoration: none;
+}
+.note { font-size: 0.85em; color: #8a7a6a; }
